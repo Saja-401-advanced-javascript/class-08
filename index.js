@@ -11,8 +11,7 @@ const mongooseOptions = {
   useUnifiedTopology: true
 }
 
-// mongoose.Promise = global.Promise
-console.log(global.Promise);
+
 
 mongoose.connect(MONGODB_URI, mongooseOptions);
 
