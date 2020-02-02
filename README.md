@@ -6,19 +6,20 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/Saja-401-advanced-javascript/class-08/pull/1)
+- [ci/cd](https://github.com/Saja-401-advanced-javascript/class-08/runs/421771372?check_suite_focus=true)
 
 
 ### Setup
 
 
 
-- `PORT` - 8080
+- `PORT` - 6666
 
 #### How to initialize/run your application (where applicable)
 
--  `npm run test`
+- npm run test
+- npm start
 
 #### Tests
 
@@ -27,4 +28,4 @@
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![](img/class-08.jpg)
