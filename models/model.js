@@ -7,11 +7,11 @@ class Model {
 
   jsonSchema() {
     console.log(typeof this.schema.jsonSchema);
-    return typeof this.schema.jsonSchema === 'function' ? this.schema.jsonSchema() : {}
+    return typeof this.schema.jsonSchema === 'function' ? this.schema.jsonSchema() : {};
   }
 
   get(_id) {
-    let queryObject = _id ? { _id } : {}
+    let queryObject = _id ? { _id } : {};
     return this.schema.find(queryObject);
   }
 
